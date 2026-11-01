@@ -106,7 +106,7 @@ export function Flow() {
   useScrub(ref, (p, el) => {
     el.style.setProperty('--fp', p.toFixed(3));
     el.querySelectorAll<HTMLElement>('.flow__s').forEach((s, i) => s.style.setProperty('--on', wordFill(p, i, n, 1.2).toFixed(3)));
-  }, { pin: true, end: '+=220%', still: 1 });
+  }, matchMedia('(min-height: 720px)').matches ? { pin: true, end: '+=220%', still: 1 } : { start: 'top 75%', end: 'bottom 60%', still: 1 });
   return (
     <section id="flow" className="sec flow" data-bg="flow" ref={ref} data-fx="여섯단계스크럽,진행선차오름,글자밝아짐,점커짐,강빛느린줌">
       <div className="wrap flow__in">

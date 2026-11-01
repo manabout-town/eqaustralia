@@ -3,7 +3,7 @@ import { chromium } from 'playwright';
 const base = process.argv[2];
 const b = await chromium.launch();
 const p = await b.newPage({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2 });
-await p.addInitScript(() => sessionStorage.setItem('jack-intro', '1'));
+await p.addInitScript(() => sessionStorage.setItem('eq-intro', '1'));
 const cdp = await p.context().newCDPSession(p);
 await cdp.send('Emulation.setCPUThrottlingRate', { rate: 4 });
 await p.goto(base, { waitUntil: 'domcontentloaded' }); await p.waitForTimeout(2500);
