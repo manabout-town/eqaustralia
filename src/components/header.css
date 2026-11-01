@@ -1,0 +1,21 @@
+.hd { position: fixed; inset: 0 0 auto; z-index: 50; transition: background var(--dur-big) var(--ease-expo); }
+.hd::before { content: ''; position: absolute; inset: 0 0 -28px; background: linear-gradient(180deg, rgba(18, 22, 31, 0.5), rgba(18, 22, 31, 0)); pointer-events: none; transition: opacity var(--dur-big) var(--ease-expo); }
+.hd.is-solid { background: rgba(18, 22, 31, 0.86); }
+.hd.is-solid::before { opacity: 0; }
+.hd__in { position: relative; height: 64px; display: flex; align-items: center; gap: 8px; }
+.hd__mark { font-family: var(--display); font-size: 22px; font-weight: 600; letter-spacing: -0.02em; text-decoration: none; white-space: nowrap; color: var(--light); margin-right: auto; }
+.hd__nav { display: flex; gap: 2px; }
+.hd__nav a, .hd__strip a { padding: 8px 11px; font-family: var(--display); font-size: 15px; font-weight: 500; color: rgba(243, 241, 236, 0.84); text-decoration: none; white-space: nowrap; transition: color var(--dur-ui) var(--ease-ui); }
+.hd__nav a:hover, .hd__strip a:hover { color: var(--point-soft); }
+.hd__nav a[aria-current='page'], .hd__strip a[aria-current='page'] { color: var(--light); box-shadow: inset 0 -2px 0 var(--point); }
+.hd__lang { margin-left: 8px; padding: 8px 10px; border: 0; background: none; font-size: 14px; font-weight: 600; color: rgba(243, 241, 236, 0.84); cursor: pointer; transition: color var(--dur-ui) var(--ease-ui); }
+.hd__lang:hover { color: var(--point-soft); }
+.hd__cta { display: inline-flex; align-items: center; height: 38px; padding: 0 16px; border-radius: var(--r2); background: var(--point); color: #10202a; font-size: 14px; font-weight: 700; text-decoration: none; white-space: nowrap; transition: background var(--dur-ui) var(--ease-ui); }
+.hd__cta:hover { background: var(--point-soft); }
+.hd__strip { display: none; }
+@media (max-width: 980px) {
+  .hd__nav { display: none; }
+  .hd__strip { position: relative; display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; padding: 0 calc(var(--gut) - 11px) 6px; -webkit-mask-image: linear-gradient(90deg, #000 86%, transparent); mask-image: linear-gradient(90deg, #000 86%, transparent); }
+  .hd__strip::-webkit-scrollbar { display: none; }
+}
+@media (max-width: 380px) { .hd__mark { font-size: 19px; } .hd__cta { padding: 0 12px; } .hd__lang { margin-left: 0; padding: 8px 6px; } }

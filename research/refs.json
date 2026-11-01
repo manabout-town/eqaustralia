@@ -1,0 +1,213 @@
+{
+ "_meta": {
+  "collected": "2026-11-01",
+  "rule": "설득 순서와 증명 방식만 기록. 색·글꼴·문구·이미지는 옮기지 않음(문장은 짧은 의역).",
+  "method": "globalen.net 은 원본 HTML을 curl로 전 페이지 열람. worldstrides.com.au 는 홈 HTML 링크 전수+WebFetch(JS 렌더라 폼 필드·후기는 열람 못 함)."
+ },
+ "globalen_net": {
+  "what_it_is": "Global Education Network Pty Ltd(빅토리아주, 2019 설립, ABN 34 635 802 587). 중국→호주 학생 단기 스터디투어, 교사·사업가 이노베이션 투어, 장애인 이동·지원 서비스. 같은 업종의 가장 가벼운 형태(5개 페이지: 홈·Study Tours·Innovation Tours·Mobility & Support·About + Child Safety·Privacy).",
+  "url": "https://globalen.net/",
+  "home_section_order": [
+   {
+    "n": 1,
+    "section": "메뉴(서비스 3개 + About)",
+    "proof_role": "무엇을 하는 회사인지 3갈래로 즉시 구분"
+   },
+   {
+    "n": 2,
+    "section": "히어로: 학생·교육자·전문가를 세계와 연결 + 한 문단 정의(호주 회사, 3개 사업)",
+    "proof_role": "국적(호주 회사)과 사업 범위를 첫 화면에서 선언"
+   },
+   {
+    "n": 3,
+    "section": "Who we are: 설립연도, 일하는 대상(학교·학생·가족·교육자·기업)",
+    "proof_role": "연혁 + 고객 유형"
+   },
+   {
+    "n": 4,
+    "section": "서비스 카드 3개(각각 학습 더보기 링크)",
+    "proof_role": "프로그램 유형 예시(단기 학습·학교 배치·버디 프로그램 등)"
+   },
+   {
+    "n": 5,
+    "section": "At a glance 표: 설립 2019 / 호주 비상장 회사 / ABN 번호 / 소재 빅토리아",
+    "proof_role": "법적 신원. ABN이 ABR 조회 링크로 걸려 있어 구경꾼이 직접 검증 가능 — 이 사이트의 핵심 증명"
+   },
+   {
+    "n": 6,
+    "section": "아동 안전 서약 박스(빅토리아 Child Safe Standards 준수 선언 + 전용 페이지 링크)",
+    "proof_role": "안전 — 홈에서 한 번 선언하고 상세는 별도 페이지로"
+   },
+   {
+    "n": 7,
+    "section": "푸터: 법인명·ABN·소재지(타운·우편번호)·이메일, 서비스·회사·Child Safety·Privacy 링크",
+    "proof_role": "모든 페이지 하단에 법인 신원 반복"
+   }
+  ],
+  "subpage_proof_patterns": [
+   {
+    "page": "/study-tours",
+    "pattern": "프로그램 방향 2개(오는 학생/나가는 학생) → 프로그램 구성 요소(단기 학습·학교 배치·버디) → Student welfare 문단(전원 심사, 프로그램마다 감독 계획, 가족이 언제든 책임자에게 연락) → 문의는 이메일 1개",
+    "url": "https://globalen.net/study-tours"
+   },
+   {
+    "page": "/child-safety",
+    "pattern": "가장 두꺼운 증명 페이지. 순서: 서약(무관용) → 적용 대상(직원·계약자·인솔자·자원봉사·홈스테이·파트너) → 11개 표준 항목 → 실제 운영 절차(WWC 보유 확인·레퍼런스 체크, 홈스테이 가정 방문·성인 전원 WWC, 서면 감독 계획과 성인:학생 비율, 보호자 서면 동의·의료 정보, 24시간 연락, 안전 브리핑, 사진 촬영 동의) → 행동 강령(한다/하지 않는다 목록) → 우려 신고 방법과 외부 신고 기관 → 학생용 안내",
+    "url": "https://globalen.net/child-safety"
+   },
+   {
+    "page": "/about",
+    "pattern": "4가지 일하는 방식(안전 우선·명확한 소통·문화 존중·꼼꼼한 계획) → Company details 표(법인명·ABN·설립·소재·이메일) → 아동 안전 링크",
+    "url": "https://globalen.net/about"
+   },
+   {
+    "page": "/innovation-tours",
+    "pattern": "유형 3개(기술·혁신 대표단 / 네트워킹 / 교육 투어) + 반대 방향(중국 교사 방문) 문장 → 이메일 문의",
+    "url": "https://globalen.net/innovation-tours"
+   }
+  ],
+  "trust_elements_present": [
+   "법인명·ABN(ABR 링크)·설립연도·소재지",
+   "아동 안전 전용 페이지(항목형 + 행동 강령 + 신고 경로)",
+   "서면 감독 계획·24시간 연락·보호자 동의 등 운영 절차를 구체 문장으로 서술"
+  ],
+  "trust_elements_absent": [
+   "후기·사례·고객 로고",
+   "숫자 실적(방문 학생 수 등)",
+   "보험 가입 내용·보장액",
+   "문의 폼(이메일 1개만, 폼 항목 없음)",
+   "일정 샘플"
+  ],
+  "takeaways_for_eq": [
+   "신뢰는 \"실적 숫자\"가 아니라 법인 신원(ABN 검증 링크) + 안전 운영 절차 서술로 쌓는다 → 실적이 없는 신규 브랜드에 맞는 방식",
+   "홈은 짧게, 상세 증명은 전용 페이지(Child Safety)로 보낸다",
+   "문의는 단순(이메일)해도 성립하나, 우리는 학교·기업 구분 폼으로 보강할 수 있음(WorldStrides 참고)"
+  ]
+ },
+ "worldstrides_com_au": {
+  "what_it_is": "WorldStrides Australia — 호주 학교 단체의 국내·해외 교육여행 판매. 규모형 브랜드(수십 년·다국가). 우리 업종의 \"반대 방향(호주 학생 해외)\"이지만 설득 구조 참고용.",
+  "url": "https://worldstrides.com.au/en-au",
+  "home_section_order": [
+   {
+    "n": 1,
+    "section": "메뉴: Browse Programs / How It Works / Why WorldStrides / Request Info / Contact",
+    "proof_role": "교사의 구매 여정(탐색→방식→신뢰→문의) 순서 그대로"
+   },
+   {
+    "n": 2,
+    "section": "히어로: 교실 밖 학습 + 짧은 태그라인",
+    "proof_role": "브랜드 포지셔닝만, 증명 없음"
+   },
+   {
+    "n": 3,
+    "section": "프로그램 탐색: 목적지·관심사(역사·언어·공연·과학·스포츠 등) 필터 + 프로그램 카드",
+    "proof_role": "프로그램 예시의 폭"
+   },
+   {
+    "n": 4,
+    "section": "후기 제목 영역(내용은 열람 못 함)",
+    "proof_role": "사회적 증거 자리"
+   },
+   {
+    "n": 5,
+    "section": "Why WorldStrides: 9개 블록 — 업력·누적 학생 수, 안전(24시간 지원센터·보험 보장액 명시), 교육과정 연계, 판촉 도구(학부모 안내용), 파트너 네트워크, 학생 성장, 연 학생 수·재참가율·거래 학교 수, 체험 학습, 맞춤 여행",
+    "proof_role": "숫자(업력·학생 수·학교 수) + 안전·보험 + 교사 업무 지원이 한 덩어리의 핵심 신뢰 구역"
+   },
+   {
+    "n": 6,
+    "section": "전 세계 도달 범위 띠 + Request Info 버튼",
+    "proof_role": "규모 + 두 번째 CTA"
+   },
+   {
+    "n": 7,
+    "section": "블로그 4건(학기 일정, 짐 싸기, 여행 가치 등)",
+    "proof_role": "교사용 실무 자료 = 전문성"
+   },
+   {
+    "n": 8,
+    "section": "마무리 CTA: 문의 요청 버튼",
+    "proof_role": "전환. 폼은 별도 페이지"
+   },
+   {
+    "n": 9,
+    "section": "푸터: 원주민 땅 인정 문구, SNS, 회사·팀·채용·CSR, 개인정보·이용약관",
+    "proof_role": "조직 정체성·법적 고지"
+   }
+  ],
+  "program_page_order": {
+   "sample_url": "https://worldstrides.com.au/en-au/teachers/programs/canberra-in-4-days",
+   "order": [
+    "제목+주제 태그",
+    "섹션 점프 링크",
+    "개요(목표·방문지)",
+    "일차별 일정(Day 1~4)",
+    "선택 확장(TourFlex 맞춤 옵션)",
+    "포함 사항(숙박·교통·24시간 지원·식사·입장료·가이드)",
+    "현장 사진",
+    "Health, Safety & Protection(원격 진료·심리 상담·24시간 직원·현지 지원망·학교용 위험관리 문서·가격 고정 보장)",
+    "견적 요청 CTA"
+   ],
+   "note": "프로그램 페이지에서 가격 수치는 공개하지 않음(견적 요청으로 유도)"
+  },
+  "about_page_trust_order": [
+   "사명(안전·신뢰성 주장)",
+   "연혁 링크",
+   "파트너 단체·업계 협회·교육 파트너 페이지 링크",
+   "지역사회·환경",
+   "가치(정직·투명·학습)",
+   "팀 소개 링크"
+  ],
+  "request_info_form": {
+   "url": "https://worldstrides.com.au/en-au/request-info",
+   "observed": "제목과 안내 문장만 열람됨(상황 설명: 탐색 중·가격 문의·목적지/계획/물류 질문 모두 가능, 입력하면 팀이 이어서 진행). 개별 입력 필드·응답 시간 표기는 열람 못 함(동적 렌더)",
+   "fields_known": "확인 못 함"
+  },
+  "trust_elements_present": [
+   "업력·학생 수·거래 학교 수(숫자)",
+   "24시간 지원센터·보험 보장액 주장",
+   "교육과정 연계 문구",
+   "일차별 일정 샘플 + 포함사항 목록",
+   "교사용 블로그 자료",
+   "학교 위험관리 문서 제공"
+  ],
+  "trust_elements_absent": [
+   "제3자 인증 배지(홈 열람 범위에서 언급 없음)",
+   "About 페이지의 숫자·보험 상세(홈에 몰려 있음)"
+  ],
+  "takeaways_for_eq": [
+   "구매자(교사·담당자)가 가장 먼저 찾는 것: 일정 샘플 → 안전/보험/위험관리 문서 → 포함 사항 → 견적 요청. 이 순서로 페이지를 짠다",
+   "\"학교용 위험관리 문서 제공\" 같은 운영 문서 약속은 WA 교육부 정책(보험 증빙·WWC·감독자)과 직접 연결 가능",
+   "가격은 숨기고 견적 요청으로 보내는 방식(프로그램마다 맞춤)",
+   "숫자 신뢰(학생 수·학교 수)는 우리에게 근거 없음 → 사용 금지, 대신 ABN 검증·보험·WWC 절차 서술로 대체"
+  ]
+ },
+ "suggested_proof_slots_for_eq_pages": {
+  "note": "참고 사이트들의 공통 패턴을 메뉴(Home/About Us/Study Tours/Our Services/Contact)에 대응시킨 제안. 확인된 사실만 채울 수 있음.",
+  "Home": [
+   "한 문장 정의(누가 누구를 위해 퍼스·서호주 현장을 운영하는지)",
+   "서비스 4~5개 카드(학교 방문·차량·숙소·통역·체험)",
+   "At a glance: 법인명·ABN(ABR 링크)·소재(WA)·운영 연락 — 설립연도/실적 수치는 근거 있을 때만",
+   "안전·아동보호 한 박스(+전용 문서 링크)",
+   "문의 CTA"
+  ],
+  "Study_Tours": [
+   "프로그램 유형(학교 방문·대학 캠퍼스·기관 견학·문화 체험)",
+   "일차별 샘플 일정(예시임을 표기)",
+   "포함/불포함",
+   "절차: 문의→제안→학교 승인·서류→운영→평가(WA 교육부 정책의 단계와 맞춤)"
+  ],
+  "Our_Services": [
+   "차량(보유 2대 사실 그대로 + 협력 확대 가능 여부는 대표 확인)",
+   "통역·가이드·숙소 수배",
+   "운영 지원 인력·24시간 연락"
+  ],
+  "About_Us": [
+   "법인·상호 관계(Madang Group Pty Ltd 의 상호 EduQuest Australia)",
+   "담당자 직책",
+   "안전·보험·WWC 운영 절차(서술형)"
+  ],
+  "Contact": [
+   "폼 항목 제안: 기관 유형(학교·기업·정부·여행사)·인원·연령대·희망 시기·체류 일수·관심 프로그램·언어(한/영)·연락처(WorldStrides는 학교 단체 정보를, globalen은 이메일만 사용)"
+  ]
+ }
+}

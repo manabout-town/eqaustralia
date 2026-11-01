@@ -1,0 +1,633 @@
+{
+ "_meta": {
+  "collected": "2026-11-01",
+  "rule": "URL만 기록(저장소에 사진 다운로드 안 함). 내용 설명은 확인용으로 임시 폴더에 받아 눈으로 본 것만 visually_checked=true. 못 본 것은 파일명·페이지 맥락만 적고 false.",
+  "provenance": "beyondperth Great Destinations 페이지 문장: \"images captured by our team over the past several years\", \"All photos are copyrighted by Beyond Perth\" → 해당 사진은 업체 자체 촬영이라고 사이트가 밝힘. 촬영자·초상권 동의는 확인 못 함."
+ },
+ "summary": {
+  "vehicle_photos": "차량 사진은 Toyota Coaster(19인승) 2장뿐. 12인승 HiAce 사진은 찾지 못함(확인 못 함). 차량 내부·기사·학생단·현장 운영(탑승·인솔) 사진은 없음.",
+  "student_or_school_photos": "학생·학교·캠퍼스 사진 없음",
+  "gap": "스터디투어·MICE 컨셉에 필요한 \"사람이 나오는 운영 현장\" 사진은 두 사이트 모두 거의 없음 → 새로 촬영하거나 동의받은 것만 사용 필요"
+ },
+ "beyondperth_vehicle": [
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/06/beyond-perth-fleet5.jpg",
+   "found_on": "/services/ , /about-us-ii/ 일부",
+   "description": "흰색 Toyota Coaster 미니버스가 공원 옆 도로에 정차(앞 3/4 앵글, 번호판 보임). 인물 없음",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "가장 쓸 만한 차량 컷. 번호판은 가림 권장"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/06/Toyota-Coaster.jpg",
+   "found_on": "/beyond-perth-small-company-big-care/ 블로그 대표 이미지",
+   "description": "같은 흰색 Toyota Coaster, 다른 앵글(공원·나무 배경), 번호판 보임. 인물 없음",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "위와 같은 컷의 변형"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/06/beyond-perth-fleet.jpg",
+   "found_on": "/services/",
+   "description": "(파일명은 fleet이나) 실제로는 밀밭 옆 아스팔트 도로와 나무, 구름 낀 하늘 — 차량 없음",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "풍경 컷으로만"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/06/beyond-perth-fleet3.jpg",
+   "found_on": "/services/",
+   "description": "(파일명은 fleet3이나) 풍차가 있는 시골 직선 도로, 푸른 하늘 — 차량 없음",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "풍경 컷으로만"
+  }
+ ],
+ "beyondperth_destinations_own_photos": [
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_9017-1-scaled.jpg",
+   "found_on": "https://beyondperth.com.au/great-destinations/ (캡션: Karijini National Park)",
+   "description": "카리지니 협곡: 붉은 암벽 사이 좁은 협곡 하천, 사람 2명이 멀리 걷는 모습(세로)",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "사용 가능(단, 대표 확인)",
+   "note": "사람은 작고 얼굴 식별 어려움"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_8638-scaled.jpg",
+   "found_on": "https://beyondperth.com.au/great-destinations/ (Karijini 그룹으로 추정)",
+   "description": "붉은 협곡 사이 얕은 물웅덩이(가로)",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_9994-1-scaled.jpg",
+   "found_on": "https://beyondperth.com.au/great-destinations/ (Karijini 그룹)",
+   "description": "협곡 수영 웅덩이와 물에 뜬 사람 1명, 숲과 붉은 절벽",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/2C5402F4-0EF9-4D72-ADF9-E8F467348F92.jpg",
+   "found_on": "https://beyondperth.com.au/great-destinations/ (캡션: Exmouth)",
+   "description": "붉은 협곡 위 전망, 아래 강물 옆에 사람 2명이 서 있음(세로)",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/2EFCC29E-C044-4EA1-BE4E-C625F72F0426.jpg",
+   "found_on": "https://beyondperth.com.au/great-destinations/ (Exmouth 그룹)",
+   "description": "붉은 능선·모래 지형 위 석양 구름(세로)",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/931C497A-3568-4078-9948-CF0972100940.jpg",
+   "found_on": "https://beyondperth.com.au/great-destinations/ (Exmouth 그룹)",
+   "description": "푸른 하늘 아래 등대와 작은 건물, 흙길(세로)",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_2107-scaled.jpg",
+   "found_on": "https://beyondperth.com.au/great-destinations/ (Exmouth 그룹)",
+   "description": "붉은 암벽 협곡 호수와 섬(세로)",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_1526-scaled.jpg",
+   "found_on": "https://beyondperth.com.au/great-destinations/ (Exmouth 그룹)",
+   "description": "해안 언덕 위 십자가와 만 전경, 사람 몇 명 멀리(세로)",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/66B59F72-EF6B-4D74-BF9D-E6DD6D25D2C8.jpg",
+   "found_on": "https://beyondperth.com.au/great-destinations/ (Exmouth→Pink Lake 사이 그룹)",
+   "description": "석양 하늘과 전망대 피크닉 테이블(세로)",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_6192-scaled.jpg",
+   "found_on": "https://beyondperth.com.au/great-destinations/ (캡션: Pink Lake, Port Gregory)",
+   "description": "분홍빛 호수와 푸른 하늘(세로)",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_6967-scaled.jpg",
+   "found_on": "https://beyondperth.com.au/great-destinations/ (캡션: Kalbarri National Park)",
+   "description": "칼바리 협곡: 붉은 사암 절벽과 강, 절벽 끝에 사람 1명(가로)",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_7009-scaled.jpg",
+   "found_on": "https://beyondperth.com.au/great-destinations/ (Kalbarri 그룹)",
+   "description": "붉은 암벽에 매달려 오르는 사람 1명(세로)",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "초상권·안전 이미지 문제로 비추천"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_7501-scaled.jpg",
+   "found_on": "https://beyondperth.com.au/great-destinations/ (Kalbarri 그룹)",
+   "description": "칼바리 해안 절벽과 파도, 자연 아치(가로)",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/BC41CDE7-B992-44E3-AC53-4C233901EFA3.jpg",
+   "found_on": "https://beyondperth.com.au/great-destinations/ (캡션: Torndirup National Park, Albany)",
+   "description": "알바니 절벽 사이로 파도가 치는 협곡, 스카이워크형 전망대(가로)",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  }
+ ],
+ "beyondperth_perth_city_and_south": [
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_4890-scaled.jpg",
+   "found_on": "/services/",
+   "description": "퍼스 시티 스카이라인 전경, 구름 하늘(세로, 전망 위치명 확인 못 함)",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/city-vetical.png",
+   "found_on": "(미디어 라이브러리, 페이지 사용처 확인 못 함)",
+   "description": "파일명상 퍼스 시티 세로 이미지",
+   "visually_checked": false,
+   "people_visible": false,
+   "use": "미확인"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/Beyond-Perth-Thumbnails6.png",
+   "found_on": "홈·About·Services 등 다수(히어로)",
+   "description": "청록색 바다와 해변 정자, 구름 낀 하늘(가로). 코테슬로 비치로 보이나 장소명 확인 못 함",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)",
+   "note": "사이트 상단 배너로 가장 많이 쓰이는 컷"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/Beyond-Perth-Thumbnails2.png",
+   "found_on": "/home/ 등",
+   "description": "공원 연못 반사, 오후 빛(가로)",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/Beyond-Perth-Thumbnails3.png",
+   "found_on": "/services/",
+   "description": "퍼스 벨타워와 \"Perth\" 간판 조형물, 하늘(가로)",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/Beyond-Perth-Thumbnails8.png",
+   "found_on": "홈",
+   "description": "칼바리 계열 붉은 지형 언덕 위 사람 1명, 모래 협곡(가로)",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/Beyond-Perth-Thumbnails9.png",
+   "found_on": "홈",
+   "description": "붉은 흙길 위 대형 광산용 트레일러 트럭과 사람 그림자(가로)",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "의도 불분명, 비추천"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/Beyond-Perth-Thumbnails11.png",
+   "found_on": "홈",
+   "description": "풍차가 있는 시골 도로(가로)",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2022/11/Beyond-Perth-Banner-4.png",
+   "found_on": "홈",
+   "description": "피너클스 사막 석회암 기둥, 석양 빛(가로 파노라마)",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2022/11/Beyond-Perth-Banner-7.png",
+   "found_on": "홈",
+   "description": "버셀튼 제티(부두)와 잔잔한 바다(가로 파노라마)",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2022/11/Beyond-Perth-Banner-11.png",
+   "found_on": "/about-us-ii/",
+   "description": "퍼스 시티 스카이라인과 킹스파크 숲(가로 파노라마)",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2022/11/Beyond-Perth-Banner-2.png",
+   "found_on": "/about-us-ii/",
+   "description": "공원 연못 반사 파노라마",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2022/11/Beyond-Perth-Banner-3.png",
+   "found_on": "/about-us-ii/",
+   "description": "퍼스 벨타워 파노라마",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_1633-scaled.jpeg",
+   "found_on": "미디어 라이브러리(2025-05)",
+   "description": "알바니 해안 데크 산책로와 바다",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_1685-2-scaled.jpeg",
+   "found_on": "미디어 라이브러리",
+   "description": "알바니 인근 풍력 발전기와 해안 숲",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_3909-scaled.jpg",
+   "found_on": "미디어 라이브러리",
+   "description": "퍼스 벨타워 광장",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_3235-scaled.jpg",
+   "found_on": "미디어 라이브러리",
+   "description": "버셀튼 제티 입구 건물과 부두(가로)",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_2660-scaled.jpg",
+   "found_on": "미디어 라이브러리",
+   "description": "퍼스 시티 고층 빌딩을 올려다본 컷",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_2059-scaled.jpg",
+   "found_on": "미디어 라이브러리",
+   "description": "붉은 절벽 아래 협곡 호수와 섬(가로)",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_6864-scaled.jpg",
+   "found_on": "미디어 라이브러리",
+   "description": "구릉 능선 전망, 풀나무(grass tree)가 앞에(가로, 장소명 확인 못 함)",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_4877-scaled.jpg",
+   "found_on": "미디어 라이브러리",
+   "description": "강가 공원 피크닉 테이블과 나무(세로)",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_4646-scaled.jpeg",
+   "found_on": "미디어 라이브러리",
+   "description": "초록·빨강 옷을 입은 해골 허수아비 조형물(장소 확인 못 함)",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "의도 불분명"
+  }
+ ],
+ "beyondperth_dusk_venue_and_accommodation_unplaced": [
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_0338-scaled.jpg",
+   "found_on": "미디어 라이브러리",
+   "description": "객실 침대 2개와 창문(숙소 내부, 장소명·숙소명 확인 못 함)",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "어느 숙소인지 확인 후 사용"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_0350-scaled.jpg",
+   "found_on": "미디어 라이브러리",
+   "description": "해질녘 야외 무대 앞 손님들(장소 확인 못 함)",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "초상권 확인 필요"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_0355-scaled.jpg",
+   "found_on": "미디어 라이브러리",
+   "description": "화덕 불꽃이 있는 야외 식당 마당과 줄조명, 손님들",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "초상권 확인 필요"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_0363-scaled.jpg",
+   "found_on": "미디어 라이브러리",
+   "description": "야외 무대 공연과 관객",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "초상권 확인 필요"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_3137-scaled.jpg",
+   "found_on": "미디어 라이브러리",
+   "description": "해질녘 수변 테라스 펍과 손님들, 멀리 항구 크레인(장소명 확인 못 함)",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "초상권 확인 필요"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_5459-scaled.jpg",
+   "found_on": "미디어 라이브러리",
+   "description": "와인바 카운터 위 와인 메뉴판",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  }
+ ],
+ "beyondperth_do_not_use_photos": [
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_5264-copy-4-scaled.jpeg",
+   "found_on": "미디어 라이브러리",
+   "description": "분홍 호수 위에 서 있는 아이 2명(미성년자 얼굴 식별 가능)",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "사용 금지(미성년자·동의 확인 못 함)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_5256-copy-scaled.jpeg",
+   "found_on": "미디어 라이브러리",
+   "description": "분홍 호수 위 아이 1명",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "사용 금지(미성년자)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/farmer-market6.png",
+   "found_on": "/gallery/",
+   "description": "파머스마켓 노점에서 사람(어린이 포함)이 물건을 사는 장면",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "사용 금지(제3자·미성년자)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/bunbury-market-scaled.jpeg",
+   "found_on": "/beyond-perth-small-company-big-care/ , 블로그 Bunbury 글",
+   "description": "실내 대형 마트 과일 코너(파머스마켓 사진이 아님)",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 금지(무관·소매점 노출)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2025/05/IMG_2822-scaled.jpeg",
+   "found_on": "미디어 라이브러리 (IMG_2822~2856 등 마트 진열대 10여 장)",
+   "description": "마트 야채·정육·치즈 진열대 사진(스터디투어와 무관, 소매점 상표 노출)",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 금지(무관)"
+  },
+  {
+   "url": "https://beyondperth.com.au/wp-content/uploads/2019/04/ (img_01~09, slider_01~03, image_xx 등)",
+   "found_on": "/home-ii/ /about-us-i/ 등 템플릿 데모",
+   "description": "테마 제작사의 데모 이미지(리무진·기사 등). 업체 사진이 아님",
+   "visually_checked": false,
+   "people_visible": false,
+   "use": "사용 금지(템플릿 스톡)"
+  }
+ ],
+ "wowhoju_logo_and_badge": [
+  {
+   "url": "https://wowhoju.com.au/wp-content/uploads/2022/08/wow-hoju-logo.png",
+   "found_on": "푸터",
+   "description": "와우호주 로고",
+   "visually_checked": false,
+   "people_visible": false,
+   "use": "와우호주 브랜드 로고 — EQ 사이트에 쓸지는 대표 결정"
+  },
+  {
+   "url": "https://wowhoju.com.au/wp-content/uploads/2019/11/QTAB-Shield.png",
+   "found_on": "푸터",
+   "description": "QTAB 방패형 배지 이미지(946px). alt·링크 없음",
+   "visually_checked": false,
+   "people_visible": false,
+   "use": "인증 유효성 확인 전 사용 금지",
+   "note": "Tourism Council WA 확인 필요"
+  }
+ ],
+ "wowhoju_own_tour_photos_in_blog": [
+  {
+   "url": "https://wowhoju.com.au/wp-content/uploads/2022/11/Pinnacles.jpg",
+   "found_on": "/%ed%94%bc%eb%84%88%ed%81%b4%ec%8a%a4-%ec%82%ac%eb%a7%89%ed%88%ac 계열 글(2022-08-02 가이드 일기)",
+   "description": "피너클스 사막에서 두 손님이 뛰어오르는 모습(석회 기둥, 흐린 하늘)",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "초상권 동의 확인 필요"
+  },
+  {
+   "url": "https://wowhoju.com.au/wp-content/uploads/2022/11/Pinnacles4.jpg",
+   "found_on": "같은 글",
+   "description": "피너클스 석양 앞 사람 실루엣 2명",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "초상권 동의 확인 필요"
+  },
+  {
+   "url": "https://wowhoju.com.au/wp-content/uploads/2022/11/hangover-bay-bbq-dinner.jpg",
+   "found_on": "같은 글",
+   "description": "철판 위 스테이크·소시지·채소 BBQ 접시(인물 없음)",
+   "visually_checked": true,
+   "people_visible": false,
+   "use": "사용 가능(단, 대표 확인)"
+  },
+  {
+   "url": "https://wowhoju.com.au/wp-content/uploads/2022/11/Yanchep.jpg",
+   "found_on": "같은 글",
+   "description": "얀첩 호수 데크에 앉은 두 사람",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "초상권 확인 필요"
+  },
+  {
+   "url": "https://wowhoju.com.au/wp-content/uploads/2020/01/iron_man_tour_1.png",
+   "found_on": "/ironman_review/ (2020-01-23)",
+   "description": "자전거 동호회 손님들이 지프형 4륜 차량에 탄 단체 셀카",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "초상권 확인 필요"
+  },
+  {
+   "url": "https://wowhoju.com.au/wp-content/uploads/2020/01/iron_man_tour_9.jpg",
+   "found_on": "/ironman_review/",
+   "description": "해안 난간 전망대에 서 있는 단체",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "초상권 확인 필요"
+  },
+  {
+   "url": "https://wowhoju.com.au/wp-content/uploads/2020/01/iron_man_tour_4.png",
+   "found_on": "/ironman_review/",
+   "description": "제티가 있는 해변의 대규모 군중(행사 현장)",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "제3자 다수 — 비추천"
+  },
+  {
+   "url": "https://wowhoju.com.au/wp-content/uploads/2019/12/cottesloebeach.png",
+   "found_on": "/perth_group_tour/ (2019-12-09, 약 50명 단체투어)",
+   "description": "코테슬로 해변 잔디 언덕에 서 있는 손님들(원경)",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "초상권 확인 필요",
+   "note": "단체투어 실적 근거로 쓸 수는 있으나 이미지 사용은 동의 필요"
+  },
+  {
+   "url": "https://wowhoju.com.au/wp-content/uploads/2019/12/rottnest.png",
+   "found_on": "/perth_group_tour/",
+   "description": "로트네스트 해안 전망대에 서 있는 단체(원경)",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "초상권 확인 필요"
+  },
+  {
+   "url": "https://wowhoju.com.au/wp-content/uploads/2019/12/rottnestisland.png",
+   "found_on": "/perth_group_tour/",
+   "description": "로트네스트 섬 길 위의 단체 도보(원경)",
+   "visually_checked": true,
+   "people_visible": true,
+   "use": "초상권 확인 필요"
+  },
+  {
+   "url": "https://wowhoju.com.au/wp-content/uploads/2019/12/kalbarri.jpg",
+   "found_on": "/wa_review/ (2019-12-02 6박7일 후기)",
+   "description": "파일명 기준 칼바리 사진(내용 미열람)",
+   "visually_checked": false,
+   "people_visible": false,
+   "use": "미확인"
+  },
+  {
+   "url": "https://wowhoju.com.au/wp-content/uploads/2019/10/waverock_tour.jpg",
+   "found_on": "/waverock_review-2/ (2019-10-24)",
+   "description": "웨이브락 투어 사진(파일명 기준, 세부 미열람)",
+   "visually_checked": false,
+   "people_visible": false,
+   "use": "미확인"
+  },
+  {
+   "url": "https://wowhoju.com.au/wp-content/uploads/2019/10/guide.jpg",
+   "found_on": "/waverock_review-2/",
+   "description": "가이드 사진(파일명 기준, 미열람)",
+   "visually_checked": false,
+   "people_visible": false,
+   "use": "미확인"
+  }
+ ],
+ "wowhoju_tour_featured_images_source_unclear": {
+  "note": "wp-json 투어 상품 대표 이미지. 일부는 스톡·관광청 제공 이미지로 보이므로 자체 촬영으로 단정 금지. 시각 확인 안 함(URL·파일명만).",
+  "items": [
+   {
+    "url": "https://wowhoju.com.au/wp-content/uploads/2018/09/desktop-background-3221104_1920.jpg",
+    "where": "홈 배경",
+    "guess": "파일명이 Pixabay식 스톡 번호 형태 → 스톡 가능성 높음"
+   },
+   {
+    "url": "https://wowhoju.com.au/wp-content/uploads/2023/05/ATA_NT_Red-Centre_uluru_9075.jpg",
+    "where": "울루루 상품",
+    "guess": "\"ATA_\" 접두 = 관광청 제공 에셋으로 추정 → 사용 금지"
+   },
+   {
+    "url": "https://wowhoju.com.au/wp-content/uploads/2023/05/ATA_NT_Uluru_8880-2-2.jpg",
+    "where": "울루루 상품",
+    "guess": "위와 동일"
+   },
+   {
+    "url": "https://wowhoju.com.au/wp-content/uploads/2023/05/ATA_WA_Karijini_ORG1113-2.jpg",
+    "where": "10일 서호주 상품",
+    "guess": "위와 동일"
+   },
+   {
+    "url": "https://wowhoju.com.au/wp-content/uploads/2019/10/REX-Adventure-Boat-Tour-Eco-Express-Guests-enjoying-tour_1920-1.jpg",
+    "where": "어드벤처 보트 투어",
+    "guess": "운영사(REX) 제공 이미지로 추정"
+   },
+   {
+    "url": "https://wowhoju.com.au/wp-content/uploads/2018/09/Pinnacles-14.jpg",
+    "where": "피너클스 데이투어",
+    "guess": "출처 확인 못 함"
+   },
+   {
+    "url": "https://wowhoju.com.au/wp-content/uploads/2018/09/Swings-roundabouts.jpg",
+    "where": "마가렛리버 일일투어",
+    "guess": "출처 확인 못 함"
+   },
+   {
+    "url": "https://wowhoju.com.au/wp-content/uploads/2018/09/caversham-wild-park18.jpg",
+    "where": "스완밸리 투어",
+    "guess": "출처 확인 못 함"
+   },
+   {
+    "url": "https://wowhoju.com.au/wp-content/uploads/2018/12/wave-rock.jpg",
+    "where": "웨이브락 투어",
+    "guess": "출처 확인 못 함"
+   },
+   {
+    "url": "https://wowhoju.com.au/wp-content/uploads/2018/12/perth-city.jpg",
+    "where": "시티·프리맨틀 투어",
+    "guess": "출처 확인 못 함"
+   },
+   {
+    "url": "https://wowhoju.com.au/wp-content/uploads/2024/10/Star-gazing-1.png",
+    "where": "피너클스 선셋·별빛 투어",
+    "guess": "출처 확인 못 함"
+   },
+   {
+    "url": "https://wowhoju.com.au/wp-content/uploads/2024/12/Kalbarri.png",
+    "where": "핑크호수+칼바리+피너클 투어",
+    "guess": "출처 확인 못 함"
+   }
+  ],
+  "vehicle_photos_found": "wowhoju 쪽에서도 차량(버스·밴) 사진은 찾지 못함 — 확인 못 함"
+ },
+ "how_to_get_full_list": "beyondperth 전체 업로드: https://beyondperth.com.au/wp-json/wp/v2/media?per_page=100 (3쪽) / wowhoju: https://wowhoju.com.au/wp-json/wp/v2/media?per_page=100 (3쪽, 총 229개)"
+}

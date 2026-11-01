@@ -1,0 +1,601 @@
+{
+ "meta": {
+  "date": "2026-11-01",
+  "project": "eqaustralia.com.au DMC",
+  "notes": [
+   "사진 fileUrl은 Wikimedia API가 돌려준 1920px 썸네일 URL(1600px는 Wikimedia 표준 크기가 아니라 1920으로 나옴). w,h는 원본 크기.",
+   "색 hex는 썸네일 영역 평균. 폰/모니터 보정 없음.",
+   "사진 전부 다운로드 안 함(색 계산용 임시 썸네일만 작업 폴더 밖에 저장, 삭제 예정).",
+   "CC BY / CC BY-SA 사진은 저자·라이선스 표기 필요."
+  ]
+ },
+ "colors": {
+  "beyondperth": [
+   {
+    "hex": "#20118a",
+    "where": "Beyond Perth 로고 — B 심볼 + PERTH 글자 (남색-인디고, 로고 PNG 불투명 픽셀 평균)",
+    "photoUrl": "https://beyondperth.com.au/wp-content/uploads/2022/11/Beyond-Perth-logo-1.png",
+    "localFile": "research/logo/Beyond-Perth-logo-1.png"
+   },
+   {
+    "hex": "#e5883d",
+    "where": "Beyond Perth 로고 — BEYOND 글자 (오렌지, 평균)",
+    "photoUrl": "https://beyondperth.com.au/wp-content/uploads/2022/11/Beyond-Perth-logo-1.png",
+    "localFile": "research/logo/Beyond-Perth-logo-1.png"
+   }
+  ],
+  "beyondperthSiteCss": {
+   "note": "beyondperth.com.au HTML 안 hex 빈도: #e5e7eb, #720eec, #181d23, #0058e6, #ff6a00, #d60000. Elementor/테마 기본값일 수 있어 브랜드색 여부는 확인 못 함. 본문 폰트는 Lato(구글폰트).",
+   "url": "https://beyondperth.com.au"
+  },
+  "places": [
+   {
+    "hex": "#5089d8",
+    "where": "퍼스 하늘 — 맑은 낮 (퍼스 공항 활주로 사진 상단 영역 평균)",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Perth_Airport_runway_seen_from_viewing_platform%2C_January_2024_02.jpg/1920px-Perth_Airport_runway_seen_from_viewing_platform%2C_January_2024_02.jpg"
+   },
+   {
+    "hex": "#bde0fb",
+    "where": "퍼스 하늘 — 옅은 구름 낀 오후 (스완강 상류 사진 상단 평균)",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Swan_River_view_from_Rivervale%2C_Western_Australia%2C_October_2023_03.jpg/1920px-Swan_River_view_from_Rivervale%2C_Western_Australia%2C_October_2023_03.jpg"
+   },
+   {
+    "hex": "#91a1b4",
+    "where": "스완강 물색 — 하늘 반사 낮은 청회색 (스완강 사진 하단 평균)",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Swan_River_view_from_Rivervale%2C_Western_Australia%2C_October_2023_03.jpg/1920px-Swan_River_view_from_Rivervale%2C_Western_Australia%2C_October_2023_03.jpg"
+   },
+   {
+    "hex": "#59657d",
+    "where": "스완강 물색 — CBD 앞 어두운 청회색 (페리에서 본 스카이라인 사진 하단 평균)",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Perth_skyline_from_the_Swan_River%2C_August_2024.jpg/1920px-Perth_skyline_from_the_Swan_River%2C_August_2024.jpg"
+   },
+   {
+    "hex": "#23adbc",
+    "where": "인도양 — 로트네스트 터콰이즈 (수면 평균)",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Waters_off_Rottnest_Island.jpg/1920px-Waters_off_Rottnest_Island.jpg"
+   },
+   {
+    "hex": "#70a8e6",
+    "where": "인도양 — 코테슬로 먼바다 (바다 영역 평균)",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Cottesloe_Beach%2C_May_2021_02.jpg/1920px-Cottesloe_Beach%2C_May_2021_02.jpg"
+   },
+   {
+    "hex": "#989f84",
+    "where": "킹스파크 유칼립투스 — 마운틴 화이트 검 잎 회녹색 (킹스파크 사진 영역 평균)",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Mountain_white_gum_%28Eucalyptus_mooreana%29_in_Kings_Park%2C_Perth%2C_October_2023.jpg/1920px-Mountain_white_gum_%28Eucalyptus_mooreana%29_in_Kings_Park%2C_Perth%2C_October_2023.jpg"
+   },
+   {
+    "hex": "#434a2d",
+    "where": "스완강변 유칼립투스 숲 짙은 녹색 (킹스파크 아님, 스완강 Bassendean 사진 수관 평균)",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Swan_River_view_from_Rivervale%2C_Western_Australia%2C_October_2023_03.jpg/1920px-Swan_River_view_from_Rivervale%2C_Western_Australia%2C_October_2023_03.jpg"
+   },
+   {
+    "hex": "#a39a90",
+    "where": "UWA 윈스롭홀 사암 외벽 (벽면 영역 평균)",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Winthrop_Hall%2C_UWA%2C_September_2020_02.jpg/1920px-Winthrop_Hall%2C_UWA%2C_September_2020_02.jpg"
+   },
+   {
+    "hex": "#a89c8e",
+    "where": "UWA 윈스롭홀 사암 외벽 — 다른 컷 (벽면 평균)",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Winthrop_Hall%2C_UWA%2C_September_2020_01.jpg/1920px-Winthrop_Hall%2C_UWA%2C_September_2020_01.jpg"
+   },
+   {
+    "hex": "#806c46",
+    "where": "피너클스 사막 모래 (모래 영역 평균)",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Pinnacles_Desert%2C_Nambung_National_Park%2C_Western_Australia_17.jpg/1920px-Pinnacles_Desert%2C_Nambung_National_Park%2C_Western_Australia_17.jpg"
+   }
+  ]
+ },
+ "lettering": {
+  "beyondperth": {
+   "impression": "로고: 폭 좁은 균일 획의 대문자 고딕(산세리프). DIN 계열 느낌, 끝이 둥글게 라운드. B 모양은 굵은 평행선 스택(스트라이프) 모노그램. 세리프 없음. 위 BEYOND 오렌지(가는 글자) / 아래 PERTH 남색(굵은 글자)의 이단 구성. 폰트 이름은 확인 못 함(이미지 로고).",
+   "logoUrl": "https://beyondperth.com.au/wp-content/uploads/2022/11/Beyond-Perth-logo-1.png",
+   "siteBodyFont": "Lato (구글폰트, font-family 확인)",
+   "siteUrl": "https://beyondperth.com.au"
+  },
+  "wagov": [
+   {
+    "what": "wa.gov.au 사이트 CSS font-family: heebo, arial, helvetica, sans-serif (Heebo 기본, 보조 Noto Sans)",
+    "url": "https://www.wa.gov.au"
+   },
+   {
+    "what": "WA 정부 Seven Cities 브랜드 가이드라인: 기본서체 Poppins, 없으면 Arial (WA 전체 정부 표준은 아님, 한 사업의 가이드)",
+    "url": "https://www.wa.gov.au/system/files/2026-09/seven-cities-brand-guidelines-final.pdf"
+   }
+  ],
+  "tourismWA": [
+   {
+    "what": "tourism.wa.gov.au CSS: SofiaPro(Regular/Medium/SemiBold) + Outfit(Regular)",
+    "url": "https://www.tourism.wa.gov.au"
+   },
+   {
+    "what": "westernaustralia.com CSS: SofiaPro(Light/Regular/Medium/SemiBold/Bold) 기본, 장식 BlatantBold 일부",
+    "url": "https://www.westernaustralia.com"
+   },
+   {
+    "what": "Tourism WA 브랜드 스타일 가이드는 본문 열람 못 함. \"Drive the Dream\" 스타일 가이드 PDF가 master brand 가이드를 참조한다고만 확인",
+    "url": "https://www.tourism.wa.gov.au/industry-support-and-events/campaigns-and-opportunities/PublishingImages/Pages/Drive-the-Dream/Drive%20The%20Dream%20Style%20Guide%20-%20December%202023.pdf"
+   }
+  ],
+  "takeaway": "공공은 전부 기하학적 산세리프(Heebo·Sofia Pro·Poppins·Lato). 세리프는 근거 없음. 한글 쪽 폰트는 별도 선정."
+ },
+ "photos": [
+  {
+   "title": "Perth (AU), Elizabeth Quay -- 2019 -- 0259.jpg",
+   "topic": "퍼스 CBD 스카이라인",
+   "top10": 1,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Perth_%28AU%29%2C_Elizabeth_Quay_--_2019_--_0259.jpg/1920px-Perth_%28AU%29%2C_Elizabeth_Quay_--_2019_--_0259.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "Dietmar Rabich",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Perth_(AU),_Elizabeth_Quay_--_2019_--_0259.jpg",
+   "w": 5877,
+   "h": 3918,
+   "note": "엘리자베스 퀴 쪽에서 본 낮 스카이라인"
+  },
+  {
+   "title": "Perth skyline from the Swan River, August 2024.jpg",
+   "topic": "스완강+CBD",
+   "top10": 2,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Perth_skyline_from_the_Swan_River%2C_August_2024.jpg/1920px-Perth_skyline_from_the_Swan_River%2C_August_2024.jpg",
+   "license": "CC BY 4.0",
+   "author": "JamesBromberger",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Perth_skyline_from_the_Swan_River,_August_2024.jpg",
+   "w": 4032,
+   "h": 2268,
+   "note": ""
+  },
+  {
+   "title": "View of Perth and Perth Stadium down the Swan River from Rivervale, Western Australia, October 2023 04.jpg",
+   "topic": "스완강+CBD",
+   "top10": null,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/View_of_Perth_and_Perth_Stadium_down_the_Swan_River_from_Rivervale%2C_Western_Australia%2C_October_2023_04.jpg/1920px-View_of_Perth_and_Perth_Stadium_down_the_Swan_River_from_Rivervale%2C_Western_Australia%2C_October_2023_04.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "Calistemon",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:View_of_Perth_and_Perth_Stadium_down_the_Swan_River_from_Rivervale,_Western_Australia,_October_2023_04.jpg",
+   "w": 4608,
+   "h": 2592,
+   "note": "퍼스 스타디움 포함 원경"
+  },
+  {
+   "title": "Perth CBD from air.jpg",
+   "topic": "CBD 항공",
+   "top10": null,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Perth_CBD_from_air.jpg/1920px-Perth_CBD_from_air.jpg",
+   "license": "CC BY 2.5",
+   "author": "Chewy m at English Wikipedia",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Perth_CBD_from_air.jpg",
+   "w": 2304,
+   "h": 1633,
+   "note": "항공 사진"
+  },
+  {
+   "title": "Perth CBD from the Queen St. Jetty (8078385550).jpg",
+   "topic": "CBD 야경",
+   "top10": null,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Perth_CBD_from_the_Queen_St._Jetty_%288078385550%29.jpg/1920px-Perth_CBD_from_the_Queen_St._Jetty_%288078385550%29.jpg",
+   "license": "CC BY-SA 2.0",
+   "author": "Tim Sneddon from Perth, AUSTRALIA",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Perth_CBD_from_the_Queen_St._Jetty_(8078385550).jpg",
+   "w": 5184,
+   "h": 3456,
+   "note": "퀸 스트리트 제티 야경"
+  },
+  {
+   "title": "Perth (AU), Elizabeth Quay Bridge -- 2019 -- 0375-9.jpg",
+   "topic": "엘리자베스 퀴 다리 야경",
+   "top10": null,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Perth_%28AU%29%2C_Elizabeth_Quay_Bridge_--_2019_--_0375-9.jpg/1920px-Perth_%28AU%29%2C_Elizabeth_Quay_Bridge_--_2019_--_0375-9.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "Dietmar Rabich",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Perth_(AU),_Elizabeth_Quay_Bridge_--_2019_--_0375-9.jpg",
+   "w": 6041,
+   "h": 4353,
+   "note": "보라 조명, 톤 튐"
+  },
+  {
+   "title": "Perth (AU), View from Kings Park -- 2019 -- 0435-42.jpg",
+   "topic": "킹스파크 전망",
+   "top10": 3,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Perth_%28AU%29%2C_View_from_Kings_Park_--_2019_--_0435-42.jpg/1920px-Perth_%28AU%29%2C_View_from_Kings_Park_--_2019_--_0435-42.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "Dietmar Rabich",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Perth_(AU),_View_from_Kings_Park_--_2019_--_0435-42.jpg",
+   "w": 14626,
+   "h": 4104,
+   "note": "킹스파크에서 본 CBD 와이드 파노라마(16:4.5 비율 크롭 필요)"
+  },
+  {
+   "title": "Eucalyptus gomphocephala in Kings Park.jpg",
+   "topic": "킹스파크 투아트(유칼립투스)",
+   "top10": null,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Eucalyptus_gomphocephala_in_Kings_Park.jpg/1920px-Eucalyptus_gomphocephala_in_Kings_Park.jpg",
+   "license": "Public domain",
+   "author": "Dcoetzee",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Eucalyptus_gomphocephala_in_Kings_Park.jpg",
+   "w": 2048,
+   "h": 1536,
+   "note": "Eucalyptus gomphocephala 와 스완강"
+  },
+  {
+   "title": "Winthrop Hall, UWA, September 2020 02.jpg",
+   "topic": "UWA 윈스롭홀",
+   "top10": 4,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Winthrop_Hall%2C_UWA%2C_September_2020_02.jpg/1920px-Winthrop_Hall%2C_UWA%2C_September_2020_02.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "Calistemon",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Winthrop_Hall,_UWA,_September_2020_02.jpg",
+   "w": 4608,
+   "h": 3456,
+   "note": "도너브룩 사암 + 시계탑"
+  },
+  {
+   "title": "Winthrop Hall, UWA, September 2020 01.jpg",
+   "topic": "UWA 윈스롭홀",
+   "top10": null,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Winthrop_Hall%2C_UWA%2C_September_2020_01.jpg/1920px-Winthrop_Hall%2C_UWA%2C_September_2020_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "Calistemon",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Winthrop_Hall,_UWA,_September_2020_01.jpg",
+   "w": 4608,
+   "h": 3456,
+   "note": "잔디 위 행사 부스, 사람 작게 있음"
+  },
+  {
+   "title": "UWA Whitfield Court and Winthrop Hall.jpg",
+   "topic": "UWA 휘트필드 코트",
+   "top10": 5,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/UWA_Whitfield_Court_and_Winthrop_Hall.jpg/1920px-UWA_Whitfield_Court_and_Winthrop_Hall.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "Orderinchaos",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:UWA_Whitfield_Court_and_Winthrop_Hall.jpg",
+   "w": 4624,
+   "h": 3468,
+   "note": "반사 연못, 윈스롭홀 측면"
+  },
+  {
+   "title": "View of Curtin 104 from Beazley.jpg",
+   "topic": "커틴대",
+   "top10": null,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/View_of_Curtin_104_from_Beazley.jpg/1920px-View_of_Curtin_104_from_Beazley.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "Orderinchaos",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:View_of_Curtin_104_from_Beazley.jpg",
+   "w": 4624,
+   "h": 3468,
+   "note": "Building 104"
+  },
+  {
+   "title": "Fremantle Fishing Boat Harbour, 03 December 2022.jpg",
+   "topic": "프리맨틀 피싱 보트 하버",
+   "top10": 8,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Fremantle_Fishing_Boat_Harbour%2C_03_December_2022.jpg/1920px-Fremantle_Fishing_Boat_Harbour%2C_03_December_2022.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "Wikimedian132366",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Fremantle_Fishing_Boat_Harbour,_03_December_2022.jpg",
+   "w": 6000,
+   "h": 4000,
+   "note": ""
+  },
+  {
+   "title": "AUS Perth, Fremantle, Round House 001.jpg",
+   "topic": "프리맨틀 라운드 하우스",
+   "top10": null,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/AUS_Perth%2C_Fremantle%2C_Round_House_001.jpg/1920px-AUS_Perth%2C_Fremantle%2C_Round_House_001.jpg",
+   "license": "CC BY 4.0",
+   "author": "-wuppertaler",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:AUS_Perth,_Fremantle,_Round_House_001.jpg",
+   "w": 3992,
+   "h": 2540,
+   "note": "Arthur Head 석회암"
+  },
+  {
+   "title": "The Basin, Rottnest Island, April 2026 02.jpg",
+   "topic": "로트네스트 베이슨",
+   "top10": 7,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/The_Basin%2C_Rottnest_Island%2C_April_2026_02.jpg/1920px-The_Basin%2C_Rottnest_Island%2C_April_2026_02.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "Calistemon",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Basin,_Rottnest_Island,_April_2026_02.jpg",
+   "w": 4608,
+   "h": 3456,
+   "note": ""
+  },
+  {
+   "title": "Quokka Coaches Bus with Wadjemup Lighthouse in the background, April 2026 01.jpg",
+   "topic": "로트네스트 + 코치 버스",
+   "top10": null,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Quokka_Coaches_Bus_with_Wadjemup_Lighthouse_in_the_background%2C_April_2026_01.jpg/1920px-Quokka_Coaches_Bus_with_Wadjemup_Lighthouse_in_the_background%2C_April_2026_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "Calistemon",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Quokka_Coaches_Bus_with_Wadjemup_Lighthouse_in_the_background,_April_2026_01.jpg",
+   "w": 4608,
+   "h": 3456,
+   "note": "Quokka Coaches 버스(도장 있음) + 등대"
+  },
+  {
+   "title": "Waters off Rottnest Island.jpg",
+   "topic": "로트네스트 바다색",
+   "top10": null,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Waters_off_Rottnest_Island.jpg/1920px-Waters_off_Rottnest_Island.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "Wonderofwildflowers",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Waters_off_Rottnest_Island.jpg",
+   "w": 4080,
+   "h": 3060,
+   "note": "터콰이즈 수면 클로즈업"
+  },
+  {
+   "title": "Pinnacles Desert, Nambung National Park, Western Australia 17.jpg",
+   "topic": "피너클스",
+   "top10": 6,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Pinnacles_Desert%2C_Nambung_National_Park%2C_Western_Australia_17.jpg/1920px-Pinnacles_Desert%2C_Nambung_National_Park%2C_Western_Australia_17.jpg",
+   "license": "CC0",
+   "author": "Dhx1",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Pinnacles_Desert,_Nambung_National_Park,_Western_Australia_17.jpg",
+   "w": 6480,
+   "h": 4320,
+   "note": "낭붕 국립공원, CC0(표기 불필요)"
+  },
+  {
+   "title": "Perth Airport runway seen from viewing platform, January 2024 02.jpg",
+   "topic": "퍼스 공항",
+   "top10": null,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Perth_Airport_runway_seen_from_viewing_platform%2C_January_2024_02.jpg/1920px-Perth_Airport_runway_seen_from_viewing_platform%2C_January_2024_02.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "Calistemon",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Perth_Airport_runway_seen_from_viewing_platform,_January_2024_02.jpg",
+   "w": 4608,
+   "h": 3456,
+   "note": "활주로·뷰잉 플랫폼"
+  },
+  {
+   "title": "Jetstar Airbus A320 VH-VGY at Perth Airport, April 2023 01.jpg",
+   "topic": "퍼스 공항",
+   "top10": 10,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Jetstar_Airbus_A320_VH-VGY_at_Perth_Airport%2C_April_2023_01.jpg/1920px-Jetstar_Airbus_A320_VH-VGY_at_Perth_Airport%2C_April_2023_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "Calistemon",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Jetstar_Airbus_A320_VH-VGY_at_Perth_Airport,_April_2023_01.jpg",
+   "w": 8160,
+   "h": 6120,
+   "note": "제트스타 A320, 항공사 로고 작게 있음"
+  },
+  {
+   "title": "Horizons West MAN 18.310 HOCL-H (Coach Design) CVL2819 @ Perth Airport Terminal T3 & T4.jpg",
+   "topic": "코치 버스",
+   "top10": 9,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Horizons_West_MAN_18.310_HOCL-H_%28Coach_Design%29_CVL2819_%40_Perth_Airport_Terminal_T3_%26_T4.jpg/1920px-Horizons_West_MAN_18.310_HOCL-H_%28Coach_Design%29_CVL2819_%40_Perth_Airport_Terminal_T3_%26_T4.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "ZidaneHartono",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Horizons_West_MAN_18.310_HOCL-H_(Coach_Design)_CVL2819_@_Perth_Airport_Terminal_T3_%26_T4.jpg",
+   "w": 4896,
+   "h": 2752,
+   "note": "Horizons West 코치, 도장·문구 있음 → 후보 전용"
+  },
+  {
+   "title": "Buswest Mercedes-Benz O500RF (Coach Design) CVL1393 @ Crown Perth,Burswood.jpg",
+   "topic": "코치 버스",
+   "top10": null,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Buswest_Mercedes-Benz_O500RF_%28Coach_Design%29_CVL1393_%40_Crown_Perth%2CBurswood.jpg/1920px-Buswest_Mercedes-Benz_O500RF_%28Coach_Design%29_CVL1393_%40_Crown_Perth%2CBurswood.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "ZidaneHartono",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Buswest_Mercedes-Benz_O500RF_(Coach_Design)_CVL1393_@_Crown_Perth,Burswood.jpg",
+   "w": 3264,
+   "h": 1836,
+   "note": "Buswest 코치, 도장 있음 → 후보 전용"
+  },
+  {
+   "title": "Cottesloe Beach, May 2021 02.jpg",
+   "topic": "코테슬로 비치",
+   "top10": null,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Cottesloe_Beach%2C_May_2021_02.jpg/1920px-Cottesloe_Beach%2C_May_2021_02.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "Calistemon",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Cottesloe_Beach,_May_2021_02.jpg",
+   "w": 3264,
+   "h": 2448,
+   "note": "인도양 해변"
+  },
+  {
+   "title": "Murdoch ECL Lecture Theatre 1 from top.jpg",
+   "topic": "대학 강의실",
+   "top10": null,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Murdoch_ECL_Lecture_Theatre_1_from_top.jpg/1920px-Murdoch_ECL_Lecture_Theatre_1_from_top.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "Orderinchaos",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Murdoch_ECL_Lecture_Theatre_1_from_top.jpg",
+   "w": 2560,
+   "h": 1440,
+   "note": "머독대 대형 강의실, 사람 없음"
+  },
+  {
+   "title": "WTF Jim Owens Beaconsfield PS classroom.jpg",
+   "topic": "초등학교 교실",
+   "top10": null,
+   "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/WTF_Jim_Owens_Beaconsfield_PS_classroom.jpg/1920px-WTF_Jim_Owens_Beaconsfield_PS_classroom.jpg",
+   "license": "CC BY 3.0",
+   "author": "Jim Owens (Wiki Takes Fremantle participant)",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:WTF_Jim_Owens_Beaconsfield_PS_classroom.jpg",
+   "w": 4752,
+   "h": 3168,
+   "note": "WA 프리맨틀 인근 Beaconsfield 초등학교 교실, 사람 없음"
+  }
+ ],
+ "videos": {
+  "mixkit": [
+   {
+    "title": "Students walking on a university campus",
+    "pageUrl": "https://mixkit.co/free-stock-video/students-walking-on-a-university-campus-4503/",
+    "mp4Url": "https://assets.mixkit.co/videos/4503/4503-720.mp4",
+    "내용": "대학 캠퍼스를 걷는 학생들",
+    "맞는용도": "캠퍼스·학생 단체"
+   },
+   {
+    "title": "Students walking in a university",
+    "pageUrl": "https://mixkit.co/free-stock-video/students-walking-in-a-university-4519/",
+    "mp4Url": "https://assets.mixkit.co/videos/4519/4519-720.mp4",
+    "내용": "대학 안을 걷는 학생들",
+    "맞는용도": "캠퍼스·학생 단체"
+   },
+   {
+    "title": "Students walking through a college",
+    "pageUrl": "https://mixkit.co/free-stock-video/students-walking-through-a-college-4560/",
+    "mp4Url": "https://assets.mixkit.co/videos/4560/4560-720.mp4",
+    "내용": "칼리지 건물 사이를 걷는 학생들",
+    "맞는용도": "학교 방문"
+   },
+   {
+    "title": "Group of college students working together in a classroom",
+    "pageUrl": "https://mixkit.co/free-stock-video/group-of-college-students-working-together-in-a-classroom-48166/",
+    "mp4Url": "https://assets.mixkit.co/videos/48166/48166-720.mp4",
+    "내용": "강의실에서 함께 작업하는 대학생 그룹",
+    "맞는용도": "교실·스터디투어"
+   },
+   {
+    "title": "Airplane landing in a clear day",
+    "pageUrl": "https://mixkit.co/free-stock-video/airplane-landing-in-a-clear-day-6796/",
+    "mp4Url": "https://assets.mixkit.co/videos/6796/6796-720.mp4",
+    "내용": "맑은 날 착륙하는 비행기",
+    "맞는용도": "공항·도착"
+   },
+   {
+    "title": "Airplane landing in the distance",
+    "pageUrl": "https://mixkit.co/free-stock-video/airplane-landing-in-the-distance-7035/",
+    "mp4Url": "https://assets.mixkit.co/videos/7035/7035-720.mp4",
+    "내용": "멀리서 착륙하는 비행기, 맑은 하늘",
+    "맞는용도": "공항·도착"
+   },
+   {
+    "title": "Large waves breaking along a city beach",
+    "pageUrl": "https://mixkit.co/free-stock-video/large-waves-breaking-along-a-city-beach-20889/",
+    "mp4Url": "https://assets.mixkit.co/videos/20889/20889-720.mp4",
+    "내용": "도시 해변에 부서지는 큰 파도(지역 불명)",
+    "맞는용도": "해변 도시 분위기"
+   },
+   {
+    "title": "A sandy beach with a white city",
+    "pageUrl": "https://mixkit.co/free-stock-video/a-sandy-beach-with-a-white-city-11214/",
+    "mp4Url": "https://assets.mixkit.co/videos/11214/11214-720.mp4",
+    "내용": "흰 도시가 보이는 모래 해변(지역 불명)",
+    "맞는용도": "해변 도시 분위기"
+   },
+   {
+    "title": "Time lapse of the Brisbane skyline",
+    "pageUrl": "https://mixkit.co/free-stock-video/time-lapse-of-the-brisbane-skyline-10984/",
+    "mp4Url": "https://assets.mixkit.co/videos/10984/10984-720.mp4",
+    "내용": "브리즈번 스카이라인 타임랩스(퍼스 아님, 호주 도시 태그)",
+    "맞는용도": "호주 도시 대체"
+   },
+   {
+    "title": "Time-lapse of rock formations",
+    "pageUrl": "https://mixkit.co/free-stock-video/time-lapse-of-rock-formations-11409/",
+    "mp4Url": "https://assets.mixkit.co/videos/11409/11409-720.mp4",
+    "내용": "Australia 태그 암석 지형 타임랩스(정확한 장소 확인 못 함)",
+    "맞는용도": "자연 컷"
+   },
+   {
+    "title": "American children boarding a school bus",
+    "pageUrl": "https://mixkit.co/free-stock-video/american-children-boarding-a-school-bus-24970/",
+    "mp4Url": "https://assets.mixkit.co/videos/24970/24970-720.mp4",
+    "내용": "미국 스쿨버스 탑승(코치 버스 대체, 미국 장면)",
+    "맞는용도": "버스 탑승 — 약함"
+   }
+  ],
+  "mixkitNote": "Mixkit에 퍼스·서호주 장소 지정 영상 없음, 코치 버스(관광버스) 키워드 영상도 없음. 위는 가까운 대체 후보. Mixkit 무료 라이선스(상업 이용 가능)는 각 페이지에서 재확인 권장. mp4는 720p 링크.",
+  "wowhojuYoutube": {
+   "channel": "https://www.youtube.com/channel/UC66tLCGUrGn2o4KvMUHeOQg",
+   "videos": [
+    {
+     "title": "9월에는 퍼스로 여행을 와야하는 이유 3",
+     "url": "https://www.youtube.com/watch?v=ij9v1CwwLLg",
+     "date": "2025-08-24"
+    },
+    {
+     "title": "야생화 시즌 칼바리 여행을 떠난 세명의 시니어들",
+     "url": "https://www.youtube.com/watch?v=XVkfWm5d61U",
+     "date": "2025-08-28"
+    },
+    {
+     "title": "피너클스 란셀린 사막 투어",
+     "url": "https://www.youtube.com/watch?v=mRzzHNEFw2k",
+     "date": "2022-08-28"
+    },
+    {
+     "title": "퍼스에 여행왔다면, 무조건 가야하는 필수 코스, 피너클별빛투어",
+     "url": "https://www.youtube.com/watch?v=E58NPT7L_s4",
+     "date": "2022-09-24"
+    },
+    {
+     "title": "프리맨틀 런치 뷔페 크루즈",
+     "url": "https://www.youtube.com/watch?v=plegZXDA4Bc",
+     "date": "2022-09-24"
+    },
+    {
+     "title": "달콤했던 마가렛리버 여행",
+     "url": "https://www.youtube.com/watch?v=1qu_T4BGDfY",
+     "date": "2022-11-17"
+    }
+   ],
+   "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC66tLCGUrGn2o4KvMUHeOQg",
+   "note": "채널 RSS 15편 중 6편만 발췌. 자매 사업 영상이라 DMC 사이트에 쓸 때 권리·화면 속 사람 확인 필요."
+  },
+  "beyondperth": {
+   "instagram": "https://www.instagram.com/beyondperth",
+   "facebook": "https://www.facebook.com/profile.php?id=61579828150427",
+   "youtube": "확인 못 함(사이트에 유튜브 링크 없음)"
+  },
+  "wowhojuInstagram": "https://www.instagram.com/wowhoju/"
+ },
+ "vibe": [
+  {
+   "word": "스완강 (Derbarl Yerrigan)",
+   "근거": "퍼스 중심을 흐르는 강. 누응아르 이름 Derbarl Yerrigan",
+   "url": "https://en.wikipedia.org/wiki/Swan_River_(Western_Australia)"
+  },
+  {
+   "word": "검은 백조",
+   "근거": "1697 블라밍이 검은 백조 보고 스완강으로 명명, 서호주의 상징",
+   "url": "https://en.wikipedia.org/wiki/Black_swan"
+  },
+  {
+   "word": "사암·석회암",
+   "근거": "UWA 건물 다수가 해안 석회암 + 도너브룩 사암, 윈스롭홀 로마네스크 리바이벌",
+   "url": "https://en.wikipedia.org/wiki/University_of_Western_Australia"
+  },
+  {
+   "word": "유칼립투스 부시랜드",
+   "근거": "킹스파크 400.6ha 중 3분의 2가 자생 부시랜드, 길가에 유칼립투스 명예 가로수",
+   "url": "https://en.wikipedia.org/wiki/Kings_Park,_Western_Australia"
+  },
+  {
+   "word": "햇살 (가장 맑은 수도)",
+   "근거": "연 약 3,200시간 일조, 호주에서 가장 해가 많은 주도",
+   "url": "https://en.wikipedia.org/wiki/Perth"
+  },
+  {
+   "word": "인도양 터콰이즈",
+   "근거": "로트네스트 터콰이즈 수면 실측 #23adbc, 퍼스는 인도양 연안",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Waters_off_Rottnest_Island.jpg/1920px-Waters_off_Rottnest_Island.jpg"
+  },
+  {
+   "word": "피너클스 석회암 기둥",
+   "근거": "낭붕 국립공원 피너클스 사막, 수천 개의 석회암 기둥, 퍼스 북쪽 200km",
+   "url": "https://en.wikipedia.org/wiki/Nambung_National_Park"
+  },
+  {
+   "word": "와드젬업 / 누응아르 땅",
+   "근거": "로트네스트 원주민 이름 Wadjemup = 영혼들이 있는 바다 건너 땅, 퍼스는 Whadjuk 누응아르 땅",
+   "url": "https://en.wikipedia.org/wiki/Rottnest_Island"
+  },
+  {
+   "word": "프리맨틀 석회암 유산",
+   "근거": "Round House는 Arthur Head 석회암 언덕, 죄수가 지은 건물과 골드러시 건물 보존",
+   "url": "https://en.wikipedia.org/wiki/Fremantle"
+  },
+  {
+   "word": "쿼카 (로트네스트)",
+   "근거": "로트네스트의 상징 개체군, 1696 블라밍이 쥐 둥지 섬이라 부른 계기",
+   "url": "https://en.wikipedia.org/wiki/Quokka"
+  }
+ ]
+}

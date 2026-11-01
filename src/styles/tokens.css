@@ -1,0 +1,45 @@
+/* 글꼴: 디스플레이 Outfit(가변 100~900, Tourism WA 사용 서체) · 한글·본문 Pretendard Variable — index.html에서 불러옴 */
+:root {
+  /* 팔레트 — research/design.json 실측(direction.ts) */
+  --night: #12161f;
+  --dark: #1c2230;
+  --light: #f3f1ec;
+  --brand: #20118a;
+  --brand-soft: #4a3fc4;
+  --point: #23adbc;
+  --point-soft: #7fd6df;
+
+  --t1: rgba(243, 241, 236, 0.96);
+  --t2: rgba(243, 241, 236, 0.82);
+  --t3: rgba(243, 241, 236, 0.64);
+  --t4: rgba(243, 241, 236, 0.36);
+  --line: rgba(243, 241, 236, 0.2);
+
+  --display: 'Outfit', 'Pretendard Variable', -apple-system, sans-serif;
+  --quote: 'Outfit', 'Pretendard Variable', -apple-system, sans-serif;
+  --sans: 'Pretendard Variable', 'Outfit', -apple-system, 'Apple SD Gothic Neo', sans-serif;
+  --display-w: 600;
+
+  /* radius 타이트 계열(보수 업종·공공 서식) */
+  --r1: 2px;
+  --r2: 4px;
+  --r3: 8px;
+
+  --ease-ui: cubic-bezier(0, 0, 0.2, 1);
+  --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-ui: 160ms;
+  --dur-big: 480ms;
+
+  --header-h: 64px;
+  --wrap: 1244px;
+  --gut: clamp(16px, 4vw, 40px);
+}
+
+.on-light {
+  --t1: rgba(28, 34, 48, 0.96);
+  --t2: rgba(28, 34, 48, 0.82);
+  --t3: rgba(28, 34, 48, 0.68);
+  --t4: rgba(28, 34, 48, 0.36);
+  --line: rgba(28, 34, 48, 0.18);
+  color: var(--t1);
+}
