@@ -7,7 +7,7 @@ const en = {
   nav: [['Home', '#/'], ['About Us', '#/about'], ['Study Tours', '#/study-tours'], ['Our Services', '#/services'], ['Contact', '#/contact']] as [string, string][],
   langLabel: '한국어',
   enquire: 'Enquire',
-  intro: [['Your students', 'land in Perth.'], ['We run', 'every day.']] as [string[], string[]],
+  intro: [['Your students', 'land in Perth.'], ['From day one,', 'we run it.']] as [string[], string[]],
   hero: {
     h: [['Bringing a', 'student group', 'to Perth?']] as L,
     words: ['Airport', 'School visit', 'Campus', 'Coach', 'Stay', 'Interpreter'],
@@ -54,7 +54,7 @@ const en = {
     h: [['One partner', 'for the whole stay']] as L,
     list: [
       { k: 'School visits', d: 'We prepare the request and paperwork. The principal of each school makes the decision.' },
-      { k: 'Transport', d: 'Airport transfers and daily transport for small groups with our sister company Beyond Perth.' },
+      { k: 'Transport', d: 'Airport transfers and daily transport for small groups through Beyond Perth, our own charter transport business.' },
       { k: 'Accommodation', d: 'Hotels and group stays matched to the students’ ages and your budget.' },
       { k: 'Interpreting', d: 'Korean–English interpreting during visits, meetings and activities.' },
       { k: 'Activities', d: 'Excursions, cultural experiences and field days around Perth and regional WA.' },
@@ -62,8 +62,8 @@ const en = {
     ],
   },
   safety: {
-    h: [['What schools ask for,', 'prepared in advance']] as L,
-    lead: 'The WA Department of Education sets these conditions for overseas study tours visiting public schools. We get them ready with you before the group flies.',
+    h: [['What schools ask for,', 'worked through with you']] as L,
+    lead: 'The WA Department of Education sets these conditions for overseas study tours visiting public schools. We work through each one with you before the group flies.',
     list: [
       'Approval from the principal of each host school',
       'Comprehensive travel insurance for every student',
@@ -76,14 +76,14 @@ const en = {
   },
   group: {
     h: [['A Perth company', 'you can look up']] as L,
-    lead: 'EQ Australia is run by Madang Group Pty Ltd, the Perth company behind two local travel businesses.',
+    lead: 'EQ Australia is run by Madang Group Pty Ltd, the Perth company behind WoW Hoju and Beyond Perth. Its registered business names include EduQuest Australia, WoW Hoju and Beyond Perth.',
     rows: [
       { k: 'WoW Hoju', d: 'Tours of Western Australia for Korean-speaking travellers.', url: 'https://wowhoju.com.au/' },
       { k: 'Beyond Perth', d: 'Charter transport — a 12-seat Toyota HiAce and a 19-seat Toyota Coaster.', url: 'https://beyondperth.com.au/' },
     ],
     idLabel: 'ABN',
     acnLabel: 'ACN',
-    lookup: 'Check on ABN Lookup',
+    lookup: 'Check Madang Group on ABN Lookup',
     cap: 'The Beyond Perth Toyota Coaster. Photo: Beyond Perth.',
   },
   perth: {
@@ -94,7 +94,7 @@ const en = {
   faq: {
     h: [['Questions organisers', 'ask first']] as L,
     list: [
-      { q: 'What group sizes can you take?', a: 'Our sister company runs a 12-seat and a 19-seat vehicle. For larger groups, tell us the numbers and we will plan the transport with you.' },
+      { q: 'What group sizes can you take?', a: 'Our transport business, Beyond Perth, runs a 12-seat and a 19-seat vehicle. For larger groups, tell us the numbers and we will plan the transport with you.' },
       { q: 'Can you arrange visits to local schools?', a: 'Yes, we prepare the request and the paperwork. In WA public schools, the principal of each school decides whether to host a visit.' },
       { q: 'What insurance does a school visit need?', a: 'The WA Department of Education asks for comprehensive travel insurance for every student and public liability cover of A$10m–20m per claim.' },
       { q: 'Do you provide interpreters?', a: 'Korean–English interpreting is available. For other languages, ask us when you enquire.' },
@@ -174,7 +174,7 @@ const ko: typeof en = {
     h: [['체류 전체를', '한 곳에서']],
     list: [
       { k: '학교 방문', d: '요청서와 서류는 저희가 준비하고, 방문 여부는 각 학교 교장이 결정합니다.' },
-      { k: '차량', d: '자매 회사 Beyond Perth와 함께 공항 이동과 소규모 단체 일일 이동을 맡습니다.' },
+      { k: '차량', d: '같은 회사의 전세 차량 사업 Beyond Perth로 공항 이동과 소규모 단체 일일 이동을 맡습니다.' },
       { k: '숙소', d: '학생 나이와 예산에 맞는 호텔·단체 숙소를 잡습니다.' },
       { k: '통역', d: '방문·회의·체험 중 한국어–영어 통역.' },
       { k: '체험', d: '퍼스와 서호주 지방의 견학·문화 체험·현장 학습.' },
@@ -182,8 +182,8 @@ const ko: typeof en = {
     ],
   },
   safety: {
-    h: [['학교가 요구하는 것,', '미리 준비합니다']],
-    lead: '서호주 교육부는 공립학교를 방문하는 해외 스터디투어에 아래 조건을 둡니다. 단체가 출발하기 전에 함께 준비합니다.',
+    h: [['학교가 요구하는 것,', '하나씩 함께 챙깁니다']],
+    lead: '서호주 교육부는 공립학교를 방문하는 해외 스터디투어에 아래 조건을 둡니다. 단체가 출발하기 전에 하나씩 함께 챙깁니다.',
     list: [
       '방문 학교마다 교장 승인',
       '학생 전원 종합 여행자보험',
@@ -196,14 +196,14 @@ const ko: typeof en = {
   },
   group: {
     h: [['직접 조회해 볼 수 있는', '퍼스 회사']],
-    lead: 'EQ Australia는 퍼스 현지 여행 사업 두 곳을 운영하는 Madang Group Pty Ltd가 운영합니다.',
+    lead: 'EQ Australia는 WoW Hoju와 Beyond Perth를 운영하는 퍼스 회사 Madang Group Pty Ltd가 운영합니다. 이 회사의 등록 상호에는 EduQuest Australia, WoW Hoju, Beyond Perth가 있습니다.',
     rows: [
       { k: 'WoW Hoju', d: '한국어 여행객을 위한 서호주 투어.', url: 'https://wowhoju.com.au/' },
       { k: 'Beyond Perth', d: '전세 차량 — 12인승 토요타 하이에이스, 19인승 토요타 코스터.', url: 'https://beyondperth.com.au/' },
     ],
     idLabel: 'ABN',
     acnLabel: 'ACN',
-    lookup: 'ABN Lookup에서 확인',
+    lookup: 'ABN Lookup에서 Madang Group 확인',
     cap: 'Beyond Perth 토요타 코스터. 사진: Beyond Perth.',
   },
   perth: {
@@ -214,7 +214,7 @@ const ko: typeof en = {
   faq: {
     h: [['담당자들이', '먼저 묻는 것']],
     list: [
-      { q: '몇 명까지 가능한가요?', a: '자매 회사가 12인승·19인승 차량을 운영합니다. 더 큰 단체는 인원을 알려 주시면 이동 계획을 함께 짭니다.' },
+      { q: '몇 명까지 가능한가요?', a: '같은 회사의 차량 사업 Beyond Perth가 12인승·19인승 차량을 운영합니다. 더 큰 단체는 인원을 알려 주시면 이동 계획을 함께 짭니다.' },
       { q: '현지 학교 방문도 잡아 주나요?', a: '네, 요청서와 서류를 준비합니다. 서호주 공립학교는 각 학교 교장이 방문 수락 여부를 결정합니다.' },
       { q: '학교 방문에 어떤 보험이 필요한가요?', a: '서호주 교육부는 학생 전원 종합 여행자보험과 1청구당 A$10m–20m 공공배상책임보험을 요구합니다.' },
       { q: '통역도 되나요?', a: '한국어–영어 통역이 가능합니다. 다른 언어는 문의 때 말씀해 주세요.' },
@@ -261,5 +261,5 @@ export const credits = [
 ];
 
 // 줄이 갈리면 어색한 구절
-const GLUE = ['A$10m–20m', 'UTC+8', 'Toyota HiAce', 'Toyota Coaster', 'Beyond Perth', 'WoW Hoju', 'EQ Australia', 'Madang Group Pty Ltd', 'Perth Airport', 'Rottnest Island', 'Kings Park', '12인승', '19인승', '4주', '1시간', '3–5일', '1–3일', '1–2주', '3–5 days', '1–3 days', '1–2 weeks'];
+const GLUE = ['A$10m–20m', 'UTC+8', 'Toyota HiAce', 'Toyota Coaster', 'Beyond Perth', 'WoW Hoju', 'EQ Australia', 'Madang Group Pty Ltd', 'EduQuest Australia', 'Perth Airport', 'Rottnest Island', 'Kings Park', '12인승', '19인승', '4주', '1시간', '3–5일', '1–3일', '1–2주', '3–5 days', '1–3 days', '1–2 weeks'];
 export const keep = (t: string) => GLUE.reduce((s, g) => s.split(g).join(g.replace(/ /g, ' ')), t).replace(/·/g, '⁠·⁠');

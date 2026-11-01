@@ -17,16 +17,20 @@ export function Intro({ video, poster, lines }: { video: string; poster: string;
   useEffect(() => {
     if (!on) return;
     const el = ref.current!;
-    const lenis = (window as unknown as { __lenis?: { stop: () => void; start: () => void } }).__lenis;
+    // Lenis는 형제 Page에서 이 effect 뒤에 생기므로 그때그때 읽는다(리뷰 11-01: 인트로 중 휠이 뒤 페이지를 스크롤함)
+    type L = { stop: () => void; start: () => void; scrollTo: (y: number, o: { immediate: boolean }) => void };
+    const lenis = () => (window as unknown as { __lenis?: L }).__lenis;
     const html = document.documentElement;
     html.style.overflow = 'hidden';
-    lenis?.stop();
+    requestAnimationFrame(() => lenis()?.stop());
     const q = (s: string) => el.querySelectorAll(s);
     const tl = gsap.timeline({
       defaults: { ease: 'expo.out' },
       onComplete: () => {
         html.style.overflow = '';
-        lenis?.start();
+        scrollTo(0, 0);
+        lenis()?.scrollTo(0, { immediate: true });
+        lenis()?.start();
         try { sessionStorage.setItem('eq-intro', '1'); } catch { /* 무시 */ }
         setOn(false);
       },
@@ -37,17 +41,17 @@ export function Intro({ video, poster, lines }: { video: string; poster: string;
       .to(q('.in-lines'), { opacity: 0, filter: 'blur(10px)', duration: 0.8, ease: 'power2.in' }, 2.8)
       .fromTo(q('.in-word'), { opacity: 0, letterSpacing: '0.4em', fontWeight: 200 }, { opacity: 1, letterSpacing: '-0.02em', fontWeight: 600, duration: 1.8 }, 3.2)
       .to(el, { clipPath: 'inset(0 0 100% 0)', duration: 1.2, ease: 'expo.inOut' }, 5.4);
-    const hurry = () => { if (tl.time() < 5.0) tl.seek(5.0); tl.timeScale(1.6); };
-    addEventListener('wheel', hurry, { passive: true });
-    addEventListener('touchmove', hurry, { passive: true });
-    addEventListener('keydown', hurry);
+    const hurry = (e: Event) => { e.preventDefault(); if (tl.time() < 5.0) tl.seek(5.0); tl.timeScale(1.6); };
+    addEventListener('wheel', hurry, { passive: false, capture: true });
+    addEventListener('touchmove', hurry, { passive: false, capture: true });
+    addEventListener('keydown', hurry, { capture: true });
     return () => {
       tl.kill();
       html.style.overflow = '';
-      lenis?.start();
-      removeEventListener('wheel', hurry);
-      removeEventListener('touchmove', hurry);
-      removeEventListener('keydown', hurry);
+      lenis()?.start();
+      removeEventListener('wheel', hurry, { capture: true });
+      removeEventListener('touchmove', hurry, { capture: true });
+      removeEventListener('keydown', hurry, { capture: true });
     };
   }, [on]);
 

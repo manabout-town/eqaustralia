@@ -18,7 +18,7 @@
 .part { display: contents; }
 .sec { background: transparent; }
 .sec:not(.on-light) { text-shadow: 0 2px 22px rgba(0, 0, 0, 0.4); }
-.on-light { text-shadow: 0 1px 16px rgba(243, 241, 236, 0.7); }
+.on-light { text-shadow: 0 1px 16px rgba(243, 241, 236, 0.7); background: rgba(243, 241, 236, 0.8); } /* 배경 전환 전에도 대비 확보(안개 막, 상자 아님) */
 
 /* ── 공통 진입 ── */
 [data-io]:not(.fade-lines):not(.unblur) { opacity: 0; transform: translateY(24px); transition: opacity 1.2s var(--ease-expo), transform 1.2s var(--ease-expo); transition-delay: calc(var(--i, 0) * 140ms); }
@@ -197,3 +197,6 @@ html[lang='ko'] .hero__h { max-width: 18ch; font-size: clamp(34px, 6vw, 84px); }
 }
 
 @media (max-height: 719px) { .flow { min-height: 0; padding: clamp(80px, 12vw, 160px) 0; } }
+
+/* 밝은 섹션 바로 다음 어두운 섹션: 배경이 바뀌기 전 윗부분 글자 대비(리뷰 11-01) — 상자 아닌 어둠 번짐 */
+.part:has(> .on-light) + .part > .sec:not(.on-light) { background: linear-gradient(180deg, rgba(18, 22, 31, 0.82) 0%, rgba(18, 22, 31, 0.5) 35%, rgba(18, 22, 31, 0) 70%); }
