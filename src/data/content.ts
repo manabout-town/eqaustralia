@@ -111,7 +111,7 @@ const en = {
     note: 'The form opens your email app. Nothing is sent from this page.',
   },
   footer: {
-    draft: 'This is an unofficial proposal draft made by H&H Studio. It is not the live EQ Australia website yet.',
+    draft: 'This is an unofficial proposal draft made by Inconvenient Agency. It is not the live EQ Australia website yet.',
     sources: 'Rules and figures are quoted from the WA Department of Education, WA Department of Transport, WA Department of Communities, ABN Lookup, university pages and Wikipedia, as linked on each section (checked 1 Nov 2026).',
     photos: 'Photos: Wikimedia Commons (CC BY / CC BY-SA / CC0 — authors listed below) and Beyond Perth. Videos: Mixkit free licence. Fonts: Outfit and Pretendard (SIL OFL).',
   },
@@ -231,7 +231,7 @@ const ko: typeof en = {
     note: '양식은 메일 앱을 엽니다. 이 페이지에서 바로 전송되지 않습니다.',
   },
   footer: {
-    draft: '이 페이지는 H&H 스튜디오가 만든 비공식 제안 시안이며, 아직 EQ Australia 공식 사이트가 아닙니다.',
+    draft: '이 페이지는 불편한기획사가 만든 비공식 제안 시안이며, 아직 EQ Australia 공식 사이트가 아닙니다.',
     sources: '규정·수치는 서호주 교육부·교통부·지역사회부, ABN Lookup, 각 대학 페이지, 위키백과에서 옮겼고 섹션마다 출처를 달았습니다(2026년 11월 1일 확인).',
     photos: '사진: 위키미디어 공용(CC BY / CC BY-SA / CC0, 저작자 아래 표기)·Beyond Perth. 영상: Mixkit 무료 라이선스. 글꼴: Outfit·Pretendard(SIL OFL).',
   },
